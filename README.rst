@@ -1,8 +1,9 @@
 MoWAKi - Python utilities
 #########################
 
-This package provides several common utilities for
-[MoWAKi](https://www.mowaki.org) apps.
+This package provides several common utilities for MoWAKi_ apps.
+
+.. _MoWAKi: https://www.mowaki.org
 
 
 Storage
