@@ -1,7 +1,7 @@
 import os
 from setuptools import setup, find_packages
 
-version = '0.1'
+version = '0.2'
 
 here = os.path.dirname(__file__)
 
@@ -28,6 +28,7 @@ setup(
     install_requires=[],
     extras_require={
         'aws': ['boto3'],
+        'auth': ['pyjwt'],
     },
     # tests_require=tests_require,
     # test_suite='tests',
@@ -43,6 +44,7 @@ setup(
         # 'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3 :: Only',
 
         # 'Programming Language :: Python :: Implementation :: CPython',
