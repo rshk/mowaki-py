@@ -6,6 +6,10 @@ This package provides several common utilities for MoWAKi_ apps.
 .. _MoWAKi: https://www.mowaki.org
 
 
+.. image:: https://travis-ci.org/rshk/mowaki-py.svg?branch=master
+    :target: https://travis-ci.org/rshk/mowaki-py
+
+
 Storage
 =======
 
