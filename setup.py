@@ -29,6 +29,10 @@ setup(
     extras_require={
         'aws': ['boto3'],
         'auth': ['pyjwt'],
+        'dev': [
+            "pytest>=5.4",
+            "pytest-cov",
+        ],
     },
     # tests_require=tests_require,
     # test_suite='tests',
