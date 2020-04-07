@@ -86,3 +86,14 @@ def test_accessing_non_existing_var_raises_attributeerror():
 
     with pytest.raises(AttributeError):
         cfg.BAR
+
+
+def test_extra_vars_cannot_be_accessed():
+
+    class AppConfig(Config):
+        FOO = None
+
+    cfg = AppConfig({'BAR': 'some value'})
+
+    with pytest.raises(AttributeError):
+        cfg.BAR
