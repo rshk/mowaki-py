@@ -29,6 +29,11 @@ jobs:
         name: python-package-distributions
         path: dist/
 
+  show-github-ref:
+    steps:
+      - name: Show ref
+        run: echo "${{ github.ref }}"
+
   publish-to-pypi:
     name: >-
       Publish Python 🐍 distribution 📦 to PyPI
